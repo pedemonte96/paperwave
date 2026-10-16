@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "paperwave"
+version = "0.1.0"
+description = "Turn research papers into personalized audio lectures."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["openai>=2.0", "pypdf>=6.0"]
+
+[tool.setuptools]
+packages = ["paperwave"]
